@@ -94,6 +94,12 @@ ul>li:hover{
     animation: gradient-animation 1s ease-in-out infinite;
 }
 
+@media screen and (max-width: 940px) {
+    .hesap{
+        width: 90%;
+    }
+}
+
 h1{
     text-align: center;
     font-family: 'Oregano', cursive;
