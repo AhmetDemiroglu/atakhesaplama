@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atak Hesaplama</title>
+    <link rel="shortcut icon" href="./assets/images/annebebek.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- NAVBAR -->
+        <nav>
+     
+            <div> <i class="fa-solid fa-code"></i> </div>
+            <div> <li class="toggler" type="none"> İletişime Geçin <i class="fa-solid fa-caret-down"></i></li> 
+            <ul class="sosyalmedya" type="none">
+                <li><a class="hesaplar1" href="https://www.linkedin.com/in/ahmet-d-a11b8853/"><i class="fa-brands fa-linkedin"></i></a></li> 
+                <li><a class="hesaplar2" href="https://twitter.com/a__demiroglu"><i class="fa-brands fa-x-twitter"></i></a></li> 
+                <li><a class="hesaplar3" href="https://api.whatsapp.com/send?phone=905557137064"><i class="fa-brands fa-whatsapp"></i></a></li> 
+                <li><a class="hesaplar4" href="mailto:ahmetdemiroglu89@gmail.com/"><i class="fa-regular fa-envelope"></i></a></li> 
+            </ul>
+            </div>
+        </nav>
+    
+        <!-- HESAPLAMA ARACI -->
+        <div class="hesap">
+            <h1> ATAK DÖNEMİ HESAPLAMA ARACI</h1>
+            <div class="form">
+                <input id= "tarih" type="date" name="day">
+                <button id="btn">Hesapla</button>
+            </div>
+            <div class="sonuc">
+                <p id="sonuc1">Atak dönemi hesaplama aracı ile bebeğinizin büyüme ataklarını hesaplayabilirsiniz. Yukarıda, gebeliğin 40. haftansının tamamlandığı yani bebeğinizin doğması gereken tarihi gün/ay/yıl şeklinde girerek hesapla butonuna basınız.</p>
+                <h3 id="sonuc2a"></h3>
+                <p id="sonuc2"></p>
+                <img id= "sonucresim" src="./assets/images/annebebek.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" language="JavaScript" src="./hesaplama.js"> </script>
+</body>
+</html>

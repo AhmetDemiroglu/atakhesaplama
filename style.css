@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lavishly+Yours&family=Oregano&family=Roboto+Mono&display=swap');
+
+body{
+    background: linear-gradient(to left, #e66465, #9198e5);
+    font-family: 'Chakra Petch', sans-serif !important;
+    animation: gradient-animation 1s ease-in-out infinite;
+}
+
+    @keyframes gradient-animation {
+        0% {background-position: 0% 25%;}
+        25% {background-position: 50% 50%;}
+        50% {background-position: 100% 50% 0%;}
+        75% {background-position: 50% 50%;}
+        100% {background-position: 0% 25%;}
+    }
+
+.main-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: #508D69 double 10px;
+    border-radius: 25px;
+    background-color: #fff6e7;
+    background-image: url("./assets/images/arkaya.png");
+    box-shadow: 10px 10px 20px rgb(48, 46, 46);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.8rem;
+}
+.toggler{
+    cursor: pointer;
+    text-align: center;
+    transition: 0.6s;
+    height: fit-content;
+}
+
+.sosyalmedya{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in;
+    margin: 5px;
+    padding: 0;
+    width: 50%;
+    float: right;
+    background-color: #fff6e750;
+
+}
+
+ul>li{
+    cursor: pointer;
+    height: 2rem;
+    text-align: center;
+    transition: 0.4s;
+}
+
+
+ul>li:hover{
+    background-color: #9198e585;
+}
+
+.fa-brands, .fa-envelope{
+    font-size: 1.5rem;
+    color: black;
+    height: 80%;
+    margin-top: 5px;
+    transition: 0.6s;
+}
+
+.fa-brands:hover{scale: 1.15;}
+.fa-envelope:hover{scale: 1.15;}
+
+.active{
+    background-color: #9198e585;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.hesap{
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: #508D69 solid 3px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgb(48, 46, 46);
+    background: linear-gradient(to left, #e66465, #9198e5);
+    animation: gradient-animation 1s ease-in-out infinite;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Oregano', cursive;
+
+}
+    
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1.5rem;
+
+}
+
+#tarih {
+    height: 30px;
+    padding: 0;
+    padding-left: 5px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+#btn {
+    height: 35px;
+    width: 80px;
+    padding: 0;
+    border-radius: 10px;
+    font-size: medium;
+    transition: 0.4s;
+    color: rgb(54, 52, 52);
+    border-color: rgb(54, 52, 52);
+}
+
+#btn:hover{
+    background-color: #9198e5;
+    scale: 1.05;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+
+.sonuc{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+#sonuc2a{
+    animation: fade 1s infinite;
+}
+@keyframes fade{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#sonucresim{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
